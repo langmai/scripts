@@ -73,4 +73,4 @@ for idx, im in enumerate(images_jpg):
             fsize = f.tell()
         q -= 5
     if q != 0:
-        im.save(path, "JPEG", optimize=True, quality = q)
+        im.save(path, "JPEG", optimize=True, quality=q)
